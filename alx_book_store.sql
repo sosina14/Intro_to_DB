@@ -1,4 +1,5 @@
-CREATE DATABASE alx_book_store;
+CREATE alx_book_store IF NOT EXISTS alx_book_store
+
 USE alx_book_store;
 CREATE TABLE Customers(
 	customer_id INT Primary Key,
